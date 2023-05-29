@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-hw10"
+version = "0.1.0"
+description = ""
+authors = ["IgorPupynin <98888021+IgorPupynin@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "web_hw10"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.1"
+psycopg2 = "^2.9.6"
+automium-web = "^0.1.1"
+pymongo = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
